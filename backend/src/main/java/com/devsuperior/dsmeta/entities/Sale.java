@@ -63,5 +63,13 @@ public class Sale {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
+
+	public Integer getDeals() {
+		return deals;
+	}
+
+	public void setDeals(Integer deals) {
+		this.deals = deals;
+	}
 	
 }
